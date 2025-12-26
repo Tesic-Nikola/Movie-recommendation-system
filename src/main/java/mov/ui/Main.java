@@ -63,7 +63,7 @@ public class Main {
         
         try {
             // Load ontology (you'll need to create this file first)
-            String ontologyPath = "src/main/resources/ontology/movies.owl";
+            String ontologyPath = "src/main/resources/ontology/movies-instances.owl";
             ontologyManager.loadOntology(ontologyPath);
             
             // Initialize recommender
@@ -71,7 +71,8 @@ public class Main {
             
             // Initialize fuzzy evaluator
             fuzzyEvaluator = new FuzzyQualityEvaluator();
-            String fuzzyConfigPath = "src/main/resources/fuzzy/Quality.fcl";
+            String fuzzyConfigPath = Main.class.getClassLoader().getResource("fuzzy/Quality.fcl").getPath();
+            fuzzyConfigPath = java.net.URLDecoder.decode(fuzzyConfigPath, "UTF-8");
             fuzzyEvaluator.loadFuzzySystem(fuzzyConfigPath);
             
             // Initialize CBR engine
