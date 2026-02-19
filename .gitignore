@@ -10,8 +10,7 @@
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
-# Package Files #
-*.jar
+# Package Files - exclude JARs except local lib dependencies
 *.war
 *.nar
 *.ear
@@ -19,6 +18,9 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# Allow local lib JARs
+!lib/*.jar
+
+# virtual machine crash logs
 hs_err_pid*
 replay_pid*

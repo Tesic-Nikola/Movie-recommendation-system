@@ -1,6 +1,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>mov</groupId>
 	<artifactId>movie-recommendation-system</artifactId>
@@ -15,14 +15,12 @@
 	</properties>
 
 	<dependencies>
-		<!-- OWL API for ontology manipulation -->
 		<dependency>
 			<groupId>net.sourceforge.owlapi</groupId>
 			<artifactId>owlapi-distribution</artifactId>
 			<version>5.1.20</version>
 		</dependency>
 
-		<!-- Apache Jena for SPARQL queries -->
 		<dependency>
 			<groupId>org.apache.jena</groupId>
 			<artifactId>apache-jena-libs</artifactId>
@@ -30,21 +28,29 @@
 			<type>pom</type>
 		</dependency>
 
-		<!-- SLF4J for logging (required by Jena) -->
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-simple</artifactId>
 			<version>1.7.32</version>
 		</dependency>
 
+		<dependency>
+			<groupId>net.sourceforge.jFuzzyLogic</groupId>
+			<artifactId>jFuzzyLogic</artifactId>
+			<version>3.0</version>
+		</dependency>
 	</dependencies>
 
 	<repositories>
-		<!-- Repository for jCOLIBRI (might not be in Maven Central) -->
 		<repository>
 			<id>jcolibri-repo</id>
 			<name>jCOLIBRI Repository</name>
 			<url>https://repo1.maven.org/maven2/</url>
+		</repository>
+		<repository>
+			<id>jfuzzylogic</id>
+			<name>jFuzzyLogic</name>
+			<url>https://raw.githubusercontent.com/pcingola/jFuzzyLogic/master/repository/</url>
 		</repository>
 	</repositories>
 
