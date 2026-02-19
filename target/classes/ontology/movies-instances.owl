@@ -1,0 +1,2582 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/nikola/ontologies/2025/11/untitled-ontology-7/"
+     xml:base="http://www.semanticweb.org/nikola/ontologies/2025/11/untitled-ontology-7/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:movie="http://www.semanticweb.org/ontologies/movie#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ontologies/movies-instances">
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movie#distributedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/movie#distributedBy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movie#hasActor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/movie#hasActor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movie#hasDirector -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/movie#hasDirector"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movie#hasGenre -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/movie#hasGenre"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movie#hasLanguage -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/movie#hasLanguage"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movie#hasPrequel -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/movie#hasPrequel"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movie#hasProducer -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/movie#hasProducer"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movie#hasSequel -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/movie#hasSequel"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movie#hasWriter -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/movie#hasWriter"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movie#madeIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/movie#madeIn"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movie#partOfFranchise -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/movie#partOfFranchise"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movie#personWonAward -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/movie#personWonAward"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movie#producedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/movie#producedBy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movie#wonAward -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/movie#wonAward"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movie#alternativeTitle -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/movie#alternativeTitle"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movie#awardName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/movie#awardName"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movie#birthYear -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/movie#birthYear"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movie#boxOffice -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/movie#boxOffice"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movie#budget -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/movie#budget"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movie#countryName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/movie#countryName"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movie#deathYear -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/movie#deathYear"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movie#distributorName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/movie#distributorName"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movie#franchiseName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/movie#franchiseName"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movie#genreName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/movie#genreName"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movie#headquarters -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/movie#headquarters"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movie#imdbScore -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/movie#imdbScore"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movie#languageName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/movie#languageName"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movie#mpaaRating -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/movie#mpaaRating"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movie#nationality -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/movie#nationality"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movie#notableRole -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/movie#notableRole"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movie#personName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/movie#personName"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movie#plot -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/movie#plot"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movie#releaseYear -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/movie#releaseYear"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movie#rottenTomatoesScore -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/movie#rottenTomatoesScore"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movie#runtime -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/movie#runtime"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movie#studioName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/movie#studioName"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movie#title -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/movie#title"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movie#Actor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/movie#Actor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movie#Award -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/movie#Award"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movie#Country -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/movie#Country"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movie#Director -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/movie#Director"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movie#Distributor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/movie#Distributor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movie#Franchise -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/movie#Franchise"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movie#Genre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/movie#Genre"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movie#Language -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/movie#Language"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movie#Movie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/movie#Movie"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movie#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/movie#Person"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movie#Producer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/movie#Producer"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movie#Studio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/movie#Studio"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movie#Writer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/movie#Writer"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#Action -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#Action">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Genre"/>
+        <movie:genreName>Action</movie:genreName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#Adventure -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#Adventure">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Genre"/>
+        <movie:genreName>Adventure</movie:genreName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#AlPacino -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#AlPacino">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Actor"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#BAFTA"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#GoldenGlobe"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Oscar"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1940</movie:birthYear>
+        <movie:nationality>American</movie:nationality>
+        <movie:notableRole>Michael Corleone</movie:notableRole>
+        <movie:personName>Al Pacino</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#Amélie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#Amélie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Movie"/>
+        <movie:hasActor rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#AudreyTautou"/>
+        <movie:hasDirector rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#JeanPierreJeunet"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Comedy"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Romance"/>
+        <movie:hasLanguage rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#French"/>
+        <movie:hasWriter rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#JeanPierreJeunet"/>
+        <movie:madeIn rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#France"/>
+        <movie:alternativeTitle>Le Fabuleux Destin d&apos;Amelie Poulain</movie:alternativeTitle>
+        <movie:boxOffice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">174000000</movie:boxOffice>
+        <movie:budget rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10000000</movie:budget>
+        <movie:imdbScore rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.3</movie:imdbScore>
+        <movie:mpaaRating>R</movie:mpaaRating>
+        <movie:plot>A shy waitress decides to change the lives of those around her while struggling with her own isolation.</movie:plot>
+        <movie:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2001</movie:releaseYear>
+        <movie:rottenTomatoesScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">89</movie:rottenTomatoesScore>
+        <movie:runtime rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">122</movie:runtime>
+        <movie:title>Amélie</movie:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#Animation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#Animation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Genre"/>
+        <movie:genreName>Animation</movie:genreName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#AnthonyHopkins -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#AnthonyHopkins">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Actor"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#BAFTA"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#GoldenGlobe"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Oscar"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#SAGAward"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1937</movie:birthYear>
+        <movie:nationality>British</movie:nationality>
+        <movie:notableRole>Hannibal Lecter</movie:notableRole>
+        <movie:personName>Anthony Hopkins</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#AudreyTautou -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#AudreyTautou">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Actor"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1976</movie:birthYear>
+        <movie:nationality>French</movie:nationality>
+        <movie:notableRole>Amelie</movie:notableRole>
+        <movie:personName>Audrey Tautou</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#Avatar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#Avatar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Movie"/>
+        <movie:distributedBy rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#TwentiethCenturyFox"/>
+        <movie:hasActor rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#ZoeSaldana"/>
+        <movie:hasDirector rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#JamesCameron"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Action"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Adventure"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Fantasy"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#SciFi"/>
+        <movie:hasLanguage rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#English"/>
+        <movie:hasProducer rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#JamesCameron"/>
+        <movie:hasWriter rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#JamesCameron"/>
+        <movie:madeIn rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#USA"/>
+        <movie:producedBy rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#TwentiethCenturyFox"/>
+        <movie:wonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Oscar"/>
+        <movie:boxOffice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2923000000</movie:boxOffice>
+        <movie:budget rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">237000000</movie:budget>
+        <movie:imdbScore rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.9</movie:imdbScore>
+        <movie:mpaaRating>PG-13</movie:mpaaRating>
+        <movie:plot>A paraplegic Marine is sent to Pandora on a mission, where he&apos;s torn between orders and protecting the world.</movie:plot>
+        <movie:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2009</movie:releaseYear>
+        <movie:rottenTomatoesScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81</movie:rottenTomatoesScore>
+        <movie:runtime rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">162</movie:runtime>
+        <movie:title>Avatar</movie:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#BAFTA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#BAFTA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Award"/>
+        <movie:awardName>BAFTA</movie:awardName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#BarrieMOsborne -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#BarrieMOsborne">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Producer"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1944</movie:birthYear>
+        <movie:nationality>American</movie:nationality>
+        <movie:personName>Barrie M. Osborne</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#Batman_Begins -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#Batman_Begins">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Movie"/>
+        <movie:distributedBy rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#WarnerBrosDistribution"/>
+        <movie:hasActor rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#ChristianBale"/>
+        <movie:hasActor rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#MichaelCaine"/>
+        <movie:hasDirector rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#ChristopherNolan"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Action"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Crime"/>
+        <movie:hasLanguage rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#English"/>
+        <movie:hasProducer rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#ChristopherNolan"/>
+        <movie:hasSequel rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#The_Dark_Knight"/>
+        <movie:hasWriter rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#ChristopherNolan"/>
+        <movie:hasWriter rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#JonathanNolan"/>
+        <movie:madeIn rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#UK"/>
+        <movie:madeIn rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#USA"/>
+        <movie:partOfFranchise rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#DarkKnightTrilogy"/>
+        <movie:producedBy rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#WarnerBros"/>
+        <movie:boxOffice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">373000000</movie:boxOffice>
+        <movie:budget rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">150000000</movie:budget>
+        <movie:imdbScore rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.2</movie:imdbScore>
+        <movie:mpaaRating>PG-13</movie:mpaaRating>
+        <movie:plot>After training with a secret society, Bruce Wayne returns to Gotham to fight crime as Batman.</movie:plot>
+        <movie:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2005</movie:releaseYear>
+        <movie:rottenTomatoesScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">84</movie:rottenTomatoesScore>
+        <movie:runtime rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">140</movie:runtime>
+        <movie:title>Batman Begins</movie:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#BongJoonHo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#BongJoonHo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Director"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Writer"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#BAFTA"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Cannes"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#GoldenGlobe"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Oscar"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1969</movie:birthYear>
+        <movie:nationality>South Korean</movie:nationality>
+        <movie:personName>Bong Joon-Ho</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#Brazil -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#Brazil">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Country"/>
+        <movie:countryName>Brazil</movie:countryName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#Cannes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#Cannes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Award"/>
+        <movie:awardName>Palme d&apos;Or</movie:awardName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#ChrisEvans -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#ChrisEvans">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Actor"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1981</movie:birthYear>
+        <movie:nationality>American</movie:nationality>
+        <movie:notableRole>Captain America</movie:notableRole>
+        <movie:personName>Chris Evans</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#ChristianBale -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#ChristianBale">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Actor"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#GoldenGlobe"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Oscar"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#SAGAward"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1974</movie:birthYear>
+        <movie:nationality>British</movie:nationality>
+        <movie:notableRole>Batman</movie:notableRole>
+        <movie:personName>Christian Bale</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#ChristopherMarkus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#ChristopherMarkus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Writer"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1970</movie:birthYear>
+        <movie:nationality>American</movie:nationality>
+        <movie:personName>Christopher Markus</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#ChristopherNolan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#ChristopherNolan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Director"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Producer"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Writer"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1970</movie:birthYear>
+        <movie:nationality>British</movie:nationality>
+        <movie:personName>Christopher Nolan</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#City_of_God -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#City_of_God">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Movie"/>
+        <movie:distributedBy rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#O2Filmes"/>
+        <movie:hasDirector rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#FernandoMeirelles"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Crime"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Drama"/>
+        <movie:hasLanguage rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Portuguese"/>
+        <movie:madeIn rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Brazil"/>
+        <movie:producedBy rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#O2Filmes"/>
+        <movie:alternativeTitle>Cidade de Deus</movie:alternativeTitle>
+        <movie:boxOffice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30600000</movie:boxOffice>
+        <movie:budget rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3300000</movie:budget>
+        <movie:imdbScore rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.6</movie:imdbScore>
+        <movie:mpaaRating>R</movie:mpaaRating>
+        <movie:plot>Two boys growing up in a violent Rio de Janeiro neighborhood take different paths in life.</movie:plot>
+        <movie:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2002</movie:releaseYear>
+        <movie:rottenTomatoesScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</movie:rottenTomatoesScore>
+        <movie:runtime rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">130</movie:runtime>
+        <movie:title>City of God</movie:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#ColumbiaTriton -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#ColumbiaTriton">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Studio"/>
+        <movie:headquarters>Culver City, California</movie:headquarters>
+        <movie:studioName>ColumbiaTriton</movie:studioName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#Comedy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#Comedy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Genre"/>
+        <movie:genreName>Comedy</movie:genreName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#Crime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#Crime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Genre"/>
+        <movie:genreName>Crime</movie:genreName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#DarkKnightTrilogy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#DarkKnightTrilogy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Franchise"/>
+        <movie:franchiseName>Dark Knight Trilogy</movie:franchiseName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#DavidFranzoni -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#DavidFranzoni">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Writer"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1947</movie:birthYear>
+        <movie:nationality>American</movie:nationality>
+        <movie:personName>David Franzoni</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#DisneyStudios -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#DisneyStudios">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Distributor"/>
+        <movie:distributorName>Disney Studios</movie:distributorName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#DouglasWick -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#DouglasWick">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Producer"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1954</movie:birthYear>
+        <movie:nationality>American</movie:nationality>
+        <movie:personName>Douglas Wick</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#Drama -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#Drama">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Genre"/>
+        <movie:genreName>Drama</movie:genreName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#DreamWorks -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#DreamWorks">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Studio"/>
+        <movie:headquarters>Glendale, California</movie:headquarters>
+        <movie:studioName>DreamWorks</movie:studioName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#EdwardSaxon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#EdwardSaxon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Producer"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1947</movie:birthYear>
+        <movie:nationality>American</movie:nationality>
+        <movie:personName>Edward Saxon</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#ElijahWood -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#ElijahWood">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Actor"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#SAGAward"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1981</movie:birthYear>
+        <movie:nationality>American</movie:nationality>
+        <movie:notableRole>Frodo</movie:notableRole>
+        <movie:personName>Elijah Wood</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#English -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#English">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Language"/>
+        <movie:languageName>English</movie:languageName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#EricRoth -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#EricRoth">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Writer"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#BAFTA"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Oscar"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1945</movie:birthYear>
+        <movie:nationality>American</movie:nationality>
+        <movie:personName>Eric Roth</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#Fantasy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#Fantasy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Genre"/>
+        <movie:genreName>Fantasy</movie:genreName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#FernandoMeirelles -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#FernandoMeirelles">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Director"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1955</movie:birthYear>
+        <movie:nationality>Brazilian</movie:nationality>
+        <movie:personName>Fernando Meirelles</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#Forrest_Gump -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#Forrest_Gump">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Movie"/>
+        <movie:distributedBy rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#ParamountDistribution"/>
+        <movie:hasActor rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#TomHanks"/>
+        <movie:hasDirector rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#RobertZemeckis"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Drama"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Romance"/>
+        <movie:hasLanguage rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#English"/>
+        <movie:hasWriter rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#EricRoth"/>
+        <movie:madeIn rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#USA"/>
+        <movie:producedBy rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Paramount"/>
+        <movie:wonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Oscar"/>
+        <movie:boxOffice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">678000000</movie:boxOffice>
+        <movie:budget rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55000000</movie:budget>
+        <movie:imdbScore rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.8</movie:imdbScore>
+        <movie:mpaaRating>PG-13</movie:mpaaRating>
+        <movie:plot>A simple man witnesses and influences several defining historical events in 20th century America.</movie:plot>
+        <movie:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1994</movie:releaseYear>
+        <movie:rottenTomatoesScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">71</movie:rottenTomatoesScore>
+        <movie:runtime rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">142</movie:runtime>
+        <movie:title>Forrest Gump</movie:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#FoxSearchlight -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#FoxSearchlight">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Studio"/>
+        <movie:headquarters>Los Angeles, California</movie:headquarters>
+        <movie:studioName>FoxSearchlight</movie:studioName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#FranWalsh -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#FranWalsh">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Writer"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#BAFTA"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Oscar"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1959</movie:birthYear>
+        <movie:nationality>New Zealander</movie:nationality>
+        <movie:personName>Fran Walsh</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#France -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#France">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Country"/>
+        <movie:countryName>France</movie:countryName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#FrancisFordCoppola -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#FrancisFordCoppola">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Director"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Producer"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Writer"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Cannes"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#GoldenGlobe"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Oscar"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1939</movie:birthYear>
+        <movie:nationality>American</movie:nationality>
+        <movie:personName>Francis Ford Coppola</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#FrankDarabont -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#FrankDarabont">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Director"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1959</movie:birthYear>
+        <movie:nationality>American</movie:nationality>
+        <movie:personName>Frank Darabont</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#French -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#French">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Language"/>
+        <movie:languageName>French</movie:languageName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#GaryOldman -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#GaryOldman">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Actor"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#GoldenGlobe"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Oscar"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#SAGAward"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1958</movie:birthYear>
+        <movie:nationality>British</movie:nationality>
+        <movie:notableRole>Commissioner Gordon</movie:notableRole>
+        <movie:personName>Gary Oldman</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#Gladiator -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#Gladiator">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Movie"/>
+        <movie:distributedBy rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#UniversalDistribution"/>
+        <movie:hasActor rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#JoaquinPhoenix"/>
+        <movie:hasActor rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#RussellCrowe"/>
+        <movie:hasDirector rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#RidleyScott"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Action"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Adventure"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Drama"/>
+        <movie:hasLanguage rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#English"/>
+        <movie:hasWriter rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#DavidFranzoni"/>
+        <movie:madeIn rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#UK"/>
+        <movie:madeIn rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#USA"/>
+        <movie:producedBy rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#DreamWorks"/>
+        <movie:wonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Oscar"/>
+        <movie:boxOffice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">460000000</movie:boxOffice>
+        <movie:budget rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">103000000</movie:budget>
+        <movie:imdbScore rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.5</movie:imdbScore>
+        <movie:mpaaRating>R</movie:mpaaRating>
+        <movie:plot>A former Roman general seeks vengeance against the corrupt emperor who murdered his family.</movie:plot>
+        <movie:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2000</movie:releaseYear>
+        <movie:rottenTomatoesScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</movie:rottenTomatoesScore>
+        <movie:runtime rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">155</movie:runtime>
+        <movie:title>Gladiator</movie:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#GodfatherSaga -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#GodfatherSaga">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Franchise"/>
+        <movie:franchiseName>Godfather Saga</movie:franchiseName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#GoldenGlobe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#GoldenGlobe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Award"/>
+        <movie:awardName>Golden Globe</movie:awardName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#GrahamKing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#GrahamKing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Producer"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1961</movie:birthYear>
+        <movie:nationality>British</movie:nationality>
+        <movie:personName>Graham King</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#GuillermoDelToro -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#GuillermoDelToro">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Director"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Writer"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#BAFTA"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#GoldenGlobe"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Oscar"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1964</movie:birthYear>
+        <movie:nationality>Mexican</movie:nationality>
+        <movie:personName>Guillermo Del Toro</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#HayaoMiyazaki -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#HayaoMiyazaki">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Director"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Oscar"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1941</movie:birthYear>
+        <movie:nationality>Japanese</movie:nationality>
+        <movie:personName>Hayao Miyazaki</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#IanBryce -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#IanBryce">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Producer"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1956</movie:birthYear>
+        <movie:nationality>British</movie:nationality>
+        <movie:personName>Ian Bryce</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#IanMcKellen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#IanMcKellen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Actor"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#GoldenGlobe"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#SAGAward"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1939</movie:birthYear>
+        <movie:nationality>British</movie:nationality>
+        <movie:notableRole>Gandalf</movie:notableRole>
+        <movie:personName>Ian McKellen</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#Inception -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#Inception">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Movie"/>
+        <movie:distributedBy rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#WarnerBrosDistribution"/>
+        <movie:hasActor rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#LeonardoDiCaprio"/>
+        <movie:hasActor rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#MichaelCaine"/>
+        <movie:hasDirector rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#ChristopherNolan"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#SciFi"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Thriller"/>
+        <movie:hasLanguage rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#English"/>
+        <movie:hasProducer rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#ChristopherNolan"/>
+        <movie:hasWriter rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#ChristopherNolan"/>
+        <movie:madeIn rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#UK"/>
+        <movie:madeIn rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#USA"/>
+        <movie:producedBy rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#WarnerBros"/>
+        <movie:wonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Oscar"/>
+        <movie:boxOffice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">836000000</movie:boxOffice>
+        <movie:budget rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">160000000</movie:budget>
+        <movie:imdbScore rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.8</movie:imdbScore>
+        <movie:mpaaRating>PG-13</movie:mpaaRating>
+        <movie:plot>A thief who enters dreams to steal secrets is given a chance to erase his criminal past.</movie:plot>
+        <movie:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2010</movie:releaseYear>
+        <movie:rottenTomatoesScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">87</movie:rottenTomatoesScore>
+        <movie:runtime rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">148</movie:runtime>
+        <movie:title>Inception</movie:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#Interstellar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#Interstellar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Movie"/>
+        <movie:distributedBy rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#WarnerBrosDistribution"/>
+        <movie:hasActor rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#MatthewMcConaughey"/>
+        <movie:hasActor rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#MichaelCaine"/>
+        <movie:hasDirector rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#ChristopherNolan"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Adventure"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Drama"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#SciFi"/>
+        <movie:hasLanguage rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#English"/>
+        <movie:hasProducer rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#ChristopherNolan"/>
+        <movie:hasWriter rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#ChristopherNolan"/>
+        <movie:hasWriter rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#JonathanNolan"/>
+        <movie:madeIn rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#UK"/>
+        <movie:madeIn rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#USA"/>
+        <movie:producedBy rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#WarnerBros"/>
+        <movie:wonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Oscar"/>
+        <movie:boxOffice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">677000000</movie:boxOffice>
+        <movie:budget rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">165000000</movie:budget>
+        <movie:imdbScore rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.7</movie:imdbScore>
+        <movie:mpaaRating>PG-13</movie:mpaaRating>
+        <movie:plot>A team of explorers travel through a wormhole in space to ensure humanity&apos;s survival.</movie:plot>
+        <movie:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</movie:releaseYear>
+        <movie:rottenTomatoesScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">73</movie:rottenTomatoesScore>
+        <movie:runtime rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">169</movie:runtime>
+        <movie:title>Interstellar</movie:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#Iron_Man -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#Iron_Man">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Movie"/>
+        <movie:distributedBy rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#ParamountDistribution"/>
+        <movie:hasActor rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#RobertDowneyJr"/>
+        <movie:hasDirector rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#JonFavreau"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Action"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Adventure"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#SciFi"/>
+        <movie:hasLanguage rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#English"/>
+        <movie:hasProducer rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#KevinFeige"/>
+        <movie:hasWriter rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#MarkFergus"/>
+        <movie:madeIn rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#USA"/>
+        <movie:partOfFranchise rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#MCU"/>
+        <movie:producedBy rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#MarvelStudios"/>
+        <movie:boxOffice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">585000000</movie:boxOffice>
+        <movie:budget rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">140000000</movie:budget>
+        <movie:imdbScore rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.9</movie:imdbScore>
+        <movie:mpaaRating>PG-13</movie:mpaaRating>
+        <movie:plot>After being captured, a billionaire industrialist builds a high-tech suit of armor to escape.</movie:plot>
+        <movie:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2008</movie:releaseYear>
+        <movie:rottenTomatoesScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">94</movie:rottenTomatoesScore>
+        <movie:runtime rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">126</movie:runtime>
+        <movie:title>Iron Man</movie:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#IvanaBaquero -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#IvanaBaquero">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Actor"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1994</movie:birthYear>
+        <movie:nationality>Spanish</movie:nationality>
+        <movie:notableRole>Ofelia</movie:notableRole>
+        <movie:personName>Ivana Baquero</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#JackNicholson -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#JackNicholson">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Actor"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#BAFTA"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#GoldenGlobe"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Oscar"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#SAGAward"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1937</movie:birthYear>
+        <movie:nationality>American</movie:nationality>
+        <movie:notableRole>Frank Costello</movie:notableRole>
+        <movie:personName>Jack Nicholson</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#JamesCameron -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#JamesCameron">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Director"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Producer"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Writer"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#BAFTA"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#GoldenGlobe"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Oscar"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1954</movie:birthYear>
+        <movie:nationality>Canadian</movie:nationality>
+        <movie:personName>James Cameron</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#Japan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#Japan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Country"/>
+        <movie:countryName>Japan</movie:countryName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#Japanese -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#Japanese">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Language"/>
+        <movie:languageName>Japanese</movie:languageName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#JasonBlum -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#JasonBlum">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Producer"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1969</movie:birthYear>
+        <movie:nationality>American</movie:nationality>
+        <movie:personName>Jason Blum</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#JeanPierreJeunet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#JeanPierreJeunet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Director"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1953</movie:birthYear>
+        <movie:nationality>French</movie:nationality>
+        <movie:personName>Jean-Pierre Jeunet</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#JoaquinPhoenix -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#JoaquinPhoenix">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Actor"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#BAFTA"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#GoldenGlobe"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Oscar"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#SAGAward"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1974</movie:birthYear>
+        <movie:nationality>American</movie:nationality>
+        <movie:notableRole>Joker</movie:notableRole>
+        <movie:personName>Joaquin Phoenix</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#JodieFoster -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#JodieFoster">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Actor"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#BAFTA"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#GoldenGlobe"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Oscar"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1962</movie:birthYear>
+        <movie:nationality>American</movie:nationality>
+        <movie:notableRole>Clarice Starling</movie:notableRole>
+        <movie:personName>Jodie Foster</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#JohnTravolta -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#JohnTravolta">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Actor"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#GoldenGlobe"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1954</movie:birthYear>
+        <movie:nationality>American</movie:nationality>
+        <movie:notableRole>Vincet Vega</movie:notableRole>
+        <movie:personName>John Travolta</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#Joker -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#Joker">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Movie"/>
+        <movie:distributedBy rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#WarnerBrosDistribution"/>
+        <movie:hasActor rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#JoaquinPhoenix"/>
+        <movie:hasDirector rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#ToddPhillips"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Crime"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Drama"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Thriller"/>
+        <movie:hasLanguage rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#English"/>
+        <movie:hasWriter rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#ToddPhillips"/>
+        <movie:madeIn rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#USA"/>
+        <movie:producedBy rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#WarnerBros"/>
+        <movie:wonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Oscar"/>
+        <movie:boxOffice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1074000000</movie:boxOffice>
+        <movie:budget rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55000000</movie:budget>
+        <movie:imdbScore rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.4</movie:imdbScore>
+        <movie:mpaaRating>R</movie:mpaaRating>
+        <movie:plot>A failed comedian descends into madness, becoming the criminal mastermind known as the Joker.</movie:plot>
+        <movie:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</movie:releaseYear>
+        <movie:rottenTomatoesScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68</movie:rottenTomatoesScore>
+        <movie:runtime rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">122</movie:runtime>
+        <movie:title>Joker</movie:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#JonFavreau -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#JonFavreau">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Director"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1966</movie:birthYear>
+        <movie:nationality>American</movie:nationality>
+        <movie:personName>Jon Favreau</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#JonLandau -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#JonLandau">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Producer"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1960</movie:birthYear>
+        <movie:nationality>American</movie:nationality>
+        <movie:personName>Jon Landau</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#JonathanDemme -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#JonathanDemme">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Director"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Oscar"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1944</movie:birthYear>
+        <movie:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</movie:deathYear>
+        <movie:nationality>American</movie:nationality>
+        <movie:personName>Jonathan Demme</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#JonathanNolan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#JonathanNolan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Writer"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1976</movie:birthYear>
+        <movie:nationality>British</movie:nationality>
+        <movie:personName>Jonathan Nolan</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#KeanuReeves -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#KeanuReeves">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Actor"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1964</movie:birthYear>
+        <movie:nationality>Canadian</movie:nationality>
+        <movie:notableRole>Neo</movie:notableRole>
+        <movie:personName>Keanu Reeves</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#KevinFeige -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#KevinFeige">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Producer"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1973</movie:birthYear>
+        <movie:nationality>American</movie:nationality>
+        <movie:personName>Kevin Feige</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#Korean -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#Korean">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Language"/>
+        <movie:languageName>Korean</movie:languageName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#LOTR -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#LOTR">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Franchise"/>
+        <movie:franchiseName>Lord of the Rings</movie:franchiseName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#LeonardoDiCaprio -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#LeonardoDiCaprio">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Actor"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#BAFTA"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#GoldenGlobe"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Oscar"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#SAGAward"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1974</movie:birthYear>
+        <movie:nationality>American</movie:nationality>
+        <movie:notableRole>Cobb</movie:notableRole>
+        <movie:personName>Leonardo DiCaprio</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#MCU -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#MCU">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Franchise"/>
+        <movie:franchiseName>Marvel Cinematic Universe</movie:franchiseName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#MarioPuzo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#MarioPuzo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Writer"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Oscar"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1920</movie:birthYear>
+        <movie:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1999</movie:deathYear>
+        <movie:nationality>American</movie:nationality>
+        <movie:personName>Mario Puzo</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#MarkFergus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#MarkFergus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Writer"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1965</movie:birthYear>
+        <movie:nationality>American</movie:nationality>
+        <movie:personName>Mark Fergus</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#MartinScorsese -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#MartinScorsese">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Director"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#BAFTA"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#GoldenGlobe"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Oscar"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1942</movie:birthYear>
+        <movie:nationality>American</movie:nationality>
+        <movie:personName>Martin Scorsese</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#MarvelStudios -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#MarvelStudios">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Studio"/>
+        <movie:headquarters>Burbank, California</movie:headquarters>
+        <movie:studioName>MarvelStudios</movie:studioName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#MatthewMcConaughey -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#MatthewMcConaughey">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Actor"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#GoldenGlobe"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Oscar"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#SAGAward"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1969</movie:birthYear>
+        <movie:nationality>American</movie:nationality>
+        <movie:notableRole>Cooper</movie:notableRole>
+        <movie:personName>Matthew McConaughey</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#Mexico -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#Mexico">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Country"/>
+        <movie:countryName>Mexico</movie:countryName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#MichaelCaine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#MichaelCaine">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Actor"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#BAFTA"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#GoldenGlobe"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Oscar"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1933</movie:birthYear>
+        <movie:nationality>British</movie:nationality>
+        <movie:notableRole>Alfred</movie:notableRole>
+        <movie:personName>Michael Caine</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#Miramax -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#Miramax">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Studio"/>
+        <movie:headquarters>Los Angeles, California</movie:headquarters>
+        <movie:studioName>Miramax</movie:studioName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#MorganFreeman -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#MorganFreeman">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Actor"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#GoldenGlobe"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Oscar"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#SAGAward"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1937</movie:birthYear>
+        <movie:nationality>American</movie:nationality>
+        <movie:notableRole>Red</movie:notableRole>
+        <movie:personName>Morgan Freeman</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#NewLineCinema -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#NewLineCinema">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Studio"/>
+        <movie:headquarters>Burbank, California</movie:headquarters>
+        <movie:studioName>NewLineCinema</movie:studioName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#NewZealand -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#NewZealand">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Country"/>
+        <movie:countryName>New Zealand</movie:countryName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#O2Filmes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#O2Filmes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Distributor"/>
+        <movie:distributorName>O2Filmes</movie:distributorName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#Oldboy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#Oldboy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Movie"/>
+        <movie:title>Oldboy</movie:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#Oscar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#Oscar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Award"/>
+        <movie:awardName>Oscar</movie:awardName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#Pans_Labyrinth -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#Pans_Labyrinth">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Movie"/>
+        <movie:distributedBy rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#WarnerBrosDistribution"/>
+        <movie:hasActor rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#IvanaBaquero"/>
+        <movie:hasDirector rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#GuillermoDelToro"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Drama"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Fantasy"/>
+        <movie:hasLanguage rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Spanish"/>
+        <movie:hasWriter rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#GuillermoDelToro"/>
+        <movie:madeIn rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Mexico"/>
+        <movie:madeIn rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Spain"/>
+        <movie:wonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Oscar"/>
+        <movie:alternativeTitle>El Laberinto del Fauno</movie:alternativeTitle>
+        <movie:boxOffice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83000000</movie:boxOffice>
+        <movie:budget rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19000000</movie:budget>
+        <movie:imdbScore rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.2</movie:imdbScore>
+        <movie:mpaaRating>R</movie:mpaaRating>
+        <movie:plot>In 1944 Spain, a young girl escapes into a fantasy world to cope with her cruel stepfather.</movie:plot>
+        <movie:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2006</movie:releaseYear>
+        <movie:rottenTomatoesScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">95</movie:rottenTomatoesScore>
+        <movie:runtime rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">118</movie:runtime>
+        <movie:title>Pan&apos;s Labyrinth</movie:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#Paramount -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#Paramount">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Studio"/>
+        <movie:headquarters>Hollywood, California</movie:headquarters>
+        <movie:studioName>Paramount</movie:studioName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#ParamountDistribution -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#ParamountDistribution">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Distributor"/>
+        <movie:distributorName>Paramount Distribution</movie:distributorName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#Parasite -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#Parasite">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Movie"/>
+        <movie:hasActor rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#SongKangHo"/>
+        <movie:hasDirector rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#BongJoonHo"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Drama"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Thriller"/>
+        <movie:hasLanguage rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#SouthKorea"/>
+        <movie:hasWriter rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#BongJoonHo"/>
+        <movie:madeIn rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#SouthKorea"/>
+        <movie:wonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#BAFTA"/>
+        <movie:wonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Cannes"/>
+        <movie:wonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#GoldenGlobe"/>
+        <movie:wonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Oscar"/>
+        <movie:alternativeTitle>Gisaengchung</movie:alternativeTitle>
+        <movie:boxOffice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">262000000</movie:boxOffice>
+        <movie:budget rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11400000</movie:budget>
+        <movie:imdbScore rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.5</movie:imdbScore>
+        <movie:mpaaRating>R</movie:mpaaRating>
+        <movie:plot>A poor family schemes to infiltrate a wealthy household by posing as unrelated, qualified workers.</movie:plot>
+        <movie:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</movie:releaseYear>
+        <movie:rottenTomatoesScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">98</movie:rottenTomatoesScore>
+        <movie:runtime rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">132</movie:runtime>
+        <movie:title>Parasite</movie:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#PeterJackson -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#PeterJackson">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Director"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Producer"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Writer"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#BAFTA"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#GoldenGlobe"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Oscar"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1961</movie:birthYear>
+        <movie:nationality>New Zealander</movie:nationality>
+        <movie:personName>Peter Jackson</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#PhilippaBoeyns -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#PhilippaBoeyns">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Writer"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#BAFTA"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Oscar"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1962</movie:birthYear>
+        <movie:nationality>New Zealander</movie:nationality>
+        <movie:personName>Philippa Boeyns</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#Portuguese -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#Portuguese">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Language"/>
+        <movie:languageName>Portuguese</movie:languageName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#Pulp_Fiction -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#Pulp_Fiction">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Movie"/>
+        <movie:distributedBy rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Miramax"/>
+        <movie:hasActor rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#JohnTravolta"/>
+        <movie:hasActor rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#SamuelLJackson"/>
+        <movie:hasDirector rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#QuentinTarantino"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Crime"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Drama"/>
+        <movie:hasLanguage rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#English"/>
+        <movie:hasWriter rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#QuentinTarantino"/>
+        <movie:madeIn rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#USA"/>
+        <movie:producedBy rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Miramax"/>
+        <movie:wonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Oscar"/>
+        <movie:boxOffice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">213000000</movie:boxOffice>
+        <movie:budget rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8000000</movie:budget>
+        <movie:imdbScore rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.9</movie:imdbScore>
+        <movie:mpaaRating>R</movie:mpaaRating>
+        <movie:plot>The lives of two mob hitmen, a boxer, and a pair of diner bandits intertwine in four tales of violence.</movie:plot>
+        <movie:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1994</movie:releaseYear>
+        <movie:rottenTomatoesScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">92</movie:rottenTomatoesScore>
+        <movie:runtime rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">154</movie:runtime>
+        <movie:title>Pulp Fiction</movie:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#QuentinTarantino -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#QuentinTarantino">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Director"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Writer"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#BAFTA"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Cannes"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#GoldenGlobe"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Oscar"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1963</movie:birthYear>
+        <movie:nationality>American</movie:nationality>
+        <movie:personName>Quentin Tarantino</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#RidleyScott -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#RidleyScott">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Director"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#BAFTA"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#GoldenGlobe"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1937</movie:birthYear>
+        <movie:nationality>British</movie:nationality>
+        <movie:personName>Ridley Scott</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#RobertDowneyJr -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#RobertDowneyJr">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Actor"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#BAFTA"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#GoldenGlobe"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#SAGAward"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1965</movie:birthYear>
+        <movie:nationality>American</movie:nationality>
+        <movie:notableRole>Iron Man</movie:notableRole>
+        <movie:notableRole>Robert Downey Jr</movie:notableRole>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#RobertRodat -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#RobertRodat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Writer"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1953</movie:birthYear>
+        <movie:nationality>American</movie:nationality>
+        <movie:personName>Rober tRodat</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#RobertZemeckis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#RobertZemeckis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Director"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Oscar"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1951</movie:birthYear>
+        <movie:nationality>American</movie:nationality>
+        <movie:personName>Robert Zemeckis</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#Romance -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#Romance">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Genre"/>
+        <movie:genreName>Romance</movie:genreName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#RussellCrowe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#RussellCrowe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Actor"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#BAFTA"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#GoldenGlobe"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Oscar"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#SAGAward"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1964</movie:birthYear>
+        <movie:nationality>New Zealander</movie:nationality>
+        <movie:notableRole>Maximus</movie:notableRole>
+        <movie:personName>Russell Crowe</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#RussoBrothers -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#RussoBrothers">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Director"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1970</movie:birthYear>
+        <movie:nationality>American</movie:nationality>
+        <movie:personName>Anthony and Joe Russo</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#SAGAward -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#SAGAward">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Award"/>
+        <movie:awardName>SAG Award</movie:awardName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#SamuelLJackson -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#SamuelLJackson">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Actor"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#BAFTA"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#SAGAward"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1948</movie:birthYear>
+        <movie:nationality>American</movie:nationality>
+        <movie:notableRole>Jules</movie:notableRole>
+        <movie:personName>Samuel L Jackson</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#Saving_Private_Ryan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#Saving_Private_Ryan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Movie"/>
+        <movie:distributedBy rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#ParamountDistribution"/>
+        <movie:hasActor rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#TomHanks"/>
+        <movie:hasDirector rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#StevenSpielberg"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Action"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Drama"/>
+        <movie:hasLanguage rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#English"/>
+        <movie:hasProducer rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#StevenSpielberg"/>
+        <movie:hasWriter rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#RobertRodat"/>
+        <movie:madeIn rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#USA"/>
+        <movie:producedBy rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#DreamWorks"/>
+        <movie:wonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Oscar"/>
+        <movie:boxOffice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">482000000</movie:boxOffice>
+        <movie:budget rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">70000000</movie:budget>
+        <movie:imdbScore rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.6</movie:imdbScore>
+        <movie:mpaaRating>R</movie:mpaaRating>
+        <movie:plot>Following D-Day, a group of soldiers goes behind enemy lines to retrieve a paratrooper.</movie:plot>
+        <movie:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1998</movie:releaseYear>
+        <movie:rottenTomatoesScore rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">93</movie:rottenTomatoesScore>
+        <movie:runtime rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">169</movie:runtime>
+        <movie:title>Saving Private Ryan</movie:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#SciFi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#SciFi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Genre"/>
+        <movie:genreName>SciFi</movie:genreName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#SongKangHo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#SongKangHo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Actor"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#SAGAward"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1967</movie:birthYear>
+        <movie:nationality>South Korean</movie:nationality>
+        <movie:notableRole>Kim Ki-taek</movie:notableRole>
+        <movie:personName>Song Kang-Ho</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#SouthKorea -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#SouthKorea">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Country"/>
+        <movie:countryName>South Korea</movie:countryName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#Spain -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#Spain">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Country"/>
+        <movie:countryName>Spain</movie:countryName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#Spanish -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#Spanish">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Language"/>
+        <movie:languageName>Spanish</movie:languageName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#Spirited_Away -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#Spirited_Away">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Movie"/>
+        <movie:distributedBy rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Toho"/>
+        <movie:hasDirector rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#HayaoMiyazaki"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Adventure"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Animation"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Fantasy"/>
+        <movie:hasLanguage rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Japanese"/>
+        <movie:hasWriter rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#HayaoMiyazaki"/>
+        <movie:madeIn rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Japan"/>
+        <movie:producedBy rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#StudioGhibli"/>
+        <movie:wonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Oscar"/>
+        <movie:alternativeTitle>Sen to Chihiro no Kamikakushi</movie:alternativeTitle>
+        <movie:boxOffice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">395000000</movie:boxOffice>
+        <movie:budget rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19000000</movie:budget>
+        <movie:imdbScore rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.6</movie:imdbScore>
+        <movie:mpaaRating>PG</movie:mpaaRating>
+        <movie:plot>A young girl enters a world of spirits and must work to free her parents from a curse.</movie:plot>
+        <movie:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2001</movie:releaseYear>
+        <movie:rottenTomatoesScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">96</movie:rottenTomatoesScore>
+        <movie:runtime rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">125</movie:runtime>
+        <movie:title>Spirited Away</movie:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#StephenKing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#StephenKing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Writer"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1947</movie:birthYear>
+        <movie:nationality>American</movie:nationality>
+        <movie:personName>Stephen King</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#StevenSpielberg -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#StevenSpielberg">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Director"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Producer"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#BAFTA"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#GoldenGlobe"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Oscar"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1946</movie:birthYear>
+        <movie:nationality>American</movie:nationality>
+        <movie:personName>Steven Spielberg</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#StudioGhibli -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#StudioGhibli">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Studio"/>
+        <movie:headquarters>Koganei, Tokyo, Japan</movie:headquarters>
+        <movie:studioName>StudioGhibli</movie:studioName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#TedTally -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#TedTally">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Writer"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Oscar"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1952</movie:birthYear>
+        <movie:nationality>American</movie:nationality>
+        <movie:personName>Ted Tally</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#The_Dark_Knight -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#The_Dark_Knight">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Movie"/>
+        <movie:distributedBy rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#WarnerBrosDistribution"/>
+        <movie:hasActor rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#ChristianBale"/>
+        <movie:hasActor rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#MichaelCaine"/>
+        <movie:hasDirector rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#ChristopherNolan"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Action"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Crime"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Drama"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Thriller"/>
+        <movie:hasLanguage rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#English"/>
+        <movie:hasPrequel rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Batman_Begins"/>
+        <movie:hasProducer rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#ChristopherNolan"/>
+        <movie:hasSequel rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#The_Dark_Knight_Rises"/>
+        <movie:hasWriter rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#ChristopherNolan"/>
+        <movie:hasWriter rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#JonathanNolan"/>
+        <movie:madeIn rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#UK"/>
+        <movie:madeIn rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#USA"/>
+        <movie:partOfFranchise rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#DarkKnightTrilogy"/>
+        <movie:producedBy rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#WarnerBros"/>
+        <movie:wonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Oscar"/>
+        <movie:boxOffice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1005000000</movie:boxOffice>
+        <movie:budget rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">185000000</movie:budget>
+        <movie:imdbScore rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.0</movie:imdbScore>
+        <movie:mpaaRating>PG-13</movie:mpaaRating>
+        <movie:plot>Batman faces the Joker, a criminal mastermind who wants to plunge Gotham into anarchy.</movie:plot>
+        <movie:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2008</movie:releaseYear>
+        <movie:rottenTomatoesScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">94</movie:rottenTomatoesScore>
+        <movie:runtime rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">152</movie:runtime>
+        <movie:title>The Dark Knight</movie:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#The_Dark_Knight_Rises -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#The_Dark_Knight_Rises">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Movie"/>
+        <movie:distributedBy rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#WarnerBrosDistribution"/>
+        <movie:hasActor rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#ChristianBale"/>
+        <movie:hasActor rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#GaryOldman"/>
+        <movie:hasActor rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#MichaelCaine"/>
+        <movie:hasDirector rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#ChristopherNolan"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Action"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Crime"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Thriller"/>
+        <movie:hasLanguage rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#English"/>
+        <movie:hasPrequel rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#The_Dark_Knight"/>
+        <movie:hasProducer rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#ChristopherNolan"/>
+        <movie:hasWriter rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#ChristopherNolan"/>
+        <movie:hasWriter rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#JonathanNolan"/>
+        <movie:madeIn rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#UK"/>
+        <movie:madeIn rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#USA"/>
+        <movie:partOfFranchise rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#DarkKnightTrilogy"/>
+        <movie:producedBy rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#WarnerBros"/>
+        <movie:boxOffice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1081000000</movie:boxOffice>
+        <movie:budget rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250000000</movie:budget>
+        <movie:imdbScore rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.4</movie:imdbScore>
+        <movie:mpaaRating>PG-13</movie:mpaaRating>
+        <movie:plot>Eight years after the Joker&apos;s reign, Batman returns to save Gotham from the terrorist Bane.</movie:plot>
+        <movie:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2012</movie:releaseYear>
+        <movie:rottenTomatoesScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">87</movie:rottenTomatoesScore>
+        <movie:runtime rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">164</movie:runtime>
+        <movie:title>The Dark Knight Rises</movie:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#The_Departed -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#The_Departed">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Movie"/>
+        <movie:distributedBy rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#WarnerBrosDistribution"/>
+        <movie:hasActor rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#JackNicholson"/>
+        <movie:hasActor rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#LeonardoDiCaprio"/>
+        <movie:hasDirector rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#MartinScorsese"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Crime"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Drama"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Thriller"/>
+        <movie:hasLanguage rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#English"/>
+        <movie:hasWriter rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#WilliamMonahan"/>
+        <movie:madeIn rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#USA"/>
+        <movie:producedBy rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#WarnerBros"/>
+        <movie:wonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Oscar"/>
+        <movie:boxOffice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">291000000</movie:boxOffice>
+        <movie:budget rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90000000</movie:budget>
+        <movie:imdbScore rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.5</movie:imdbScore>
+        <movie:mpaaRating>R</movie:mpaaRating>
+        <movie:plot>An undercover cop and a mole in the police try to identify each other while infiltrating an Irish gang.</movie:plot>
+        <movie:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2006</movie:releaseYear>
+        <movie:rottenTomatoesScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</movie:rottenTomatoesScore>
+        <movie:runtime rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">151</movie:runtime>
+        <movie:title>The Departed</movie:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#The_Godfather -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#The_Godfather">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Movie"/>
+        <movie:distributedBy rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#ParamountDistribution"/>
+        <movie:hasActor rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#AlPacino"/>
+        <movie:hasDirector rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#FrancisFordCoppola"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Crime"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Drama"/>
+        <movie:hasLanguage rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#English"/>
+        <movie:hasProducer rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#FrancisFordCoppola"/>
+        <movie:hasSequel rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#The_Godfather_Part_II"/>
+        <movie:hasWriter rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#FrancisFordCoppola"/>
+        <movie:hasWriter rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#MarioPuzo"/>
+        <movie:madeIn rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#USA"/>
+        <movie:partOfFranchise rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#GodfatherSaga"/>
+        <movie:producedBy rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Paramount"/>
+        <movie:wonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Oscar"/>
+        <movie:boxOffice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250000000</movie:boxOffice>
+        <movie:budget rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6000000</movie:budget>
+        <movie:imdbScore rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.2</movie:imdbScore>
+        <movie:mpaaRating>R</movie:mpaaRating>
+        <movie:plot>The aging patriarch of an organized crime dynasty transfers control to his reluctant son.</movie:plot>
+        <movie:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1972</movie:releaseYear>
+        <movie:rottenTomatoesScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">97</movie:rottenTomatoesScore>
+        <movie:runtime rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">175</movie:runtime>
+        <movie:title>The Godfather</movie:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#The_Godfather_Part_II -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#The_Godfather_Part_II">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Movie"/>
+        <movie:distributedBy rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#ParamountDistribution"/>
+        <movie:hasActor rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#AlPacino"/>
+        <movie:hasDirector rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#FrancisFordCoppola"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Crime"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Drama"/>
+        <movie:hasLanguage rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#English"/>
+        <movie:hasPrequel rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#The_Godfather"/>
+        <movie:hasProducer rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#FrancisFordCoppola"/>
+        <movie:hasWriter rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#FrancisFordCoppola"/>
+        <movie:hasWriter rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#MarioPuzo"/>
+        <movie:madeIn rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#USA"/>
+        <movie:partOfFranchise rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#GodfatherSaga"/>
+        <movie:producedBy rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Paramount"/>
+        <movie:wonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Oscar"/>
+        <movie:alternativeTitle>Godfather 2</movie:alternativeTitle>
+        <movie:boxOffice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">93000000</movie:boxOffice>
+        <movie:budget rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13000000</movie:budget>
+        <movie:imdbScore rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.0</movie:imdbScore>
+        <movie:mpaaRating>R</movie:mpaaRating>
+        <movie:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1974</movie:releaseYear>
+        <movie:rottenTomatoesScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">96</movie:rottenTomatoesScore>
+        <movie:runtime rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">202</movie:runtime>
+        <movie:title>The Godfather Part II</movie:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#The_Green_Mile -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#The_Green_Mile">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Movie"/>
+        <movie:distributedBy rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#WarnerBrosDistribution"/>
+        <movie:hasActor rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#MorganFreeman"/>
+        <movie:hasActor rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#TomHanks"/>
+        <movie:hasDirector rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#FrankDarabont"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Crime"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Drama"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Fantasy"/>
+        <movie:hasLanguage rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#English"/>
+        <movie:hasWriter rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#FrankDarabont"/>
+        <movie:hasWriter rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#StephenKing"/>
+        <movie:madeIn rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#USA"/>
+        <movie:producedBy rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#WarnerBros"/>
+        <movie:boxOffice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">286000000</movie:boxOffice>
+        <movie:budget rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60000000</movie:budget>
+        <movie:imdbScore rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.6</movie:imdbScore>
+        <movie:mpaaRating>R</movie:mpaaRating>
+        <movie:plot>The lives of death row guards are affected by a prisoner with a mysterious gift.</movie:plot>
+        <movie:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1999</movie:releaseYear>
+        <movie:rottenTomatoesScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">79</movie:rottenTomatoesScore>
+        <movie:runtime rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">189</movie:runtime>
+        <movie:title>The Green Mile</movie:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#The_Intouchables -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#The_Intouchables">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Movie"/>
+        <movie:title>The Intouchables</movie:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#The_Matrix -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#The_Matrix">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Movie"/>
+        <movie:distributedBy rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#WarnerBrosDistribution"/>
+        <movie:hasActor rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#KeanuReeves"/>
+        <movie:hasDirector rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#WachowskiSisters"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Action"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#SciFi"/>
+        <movie:hasLanguage rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#English"/>
+        <movie:hasWriter rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#WachowskiSisters"/>
+        <movie:madeIn rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#USA"/>
+        <movie:producedBy rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#WarnerBros"/>
+        <movie:wonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Oscar"/>
+        <movie:boxOffice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">465000000</movie:boxOffice>
+        <movie:budget rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63000000</movie:budget>
+        <movie:imdbScore rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.7</movie:imdbScore>
+        <movie:mpaaRating>R</movie:mpaaRating>
+        <movie:plot>A computer hacker learns about the true nature of reality and his role in the war against its controllers.</movie:plot>
+        <movie:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1999</movie:releaseYear>
+        <movie:rottenTomatoesScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83</movie:rottenTomatoesScore>
+        <movie:runtime rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">136</movie:runtime>
+        <movie:title>The Matrix</movie:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#The_Shawshank_Redemption -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#The_Shawshank_Redemption">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Movie"/>
+        <movie:distributedBy rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#ColumbiaTriton"/>
+        <movie:hasActor rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#MorganFreeman"/>
+        <movie:hasActor rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#TimRobbins"/>
+        <movie:hasDirector rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#FrankDarabont"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Crime"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Drama"/>
+        <movie:hasLanguage rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#English"/>
+        <movie:hasWriter rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#FrankDarabont"/>
+        <movie:hasWriter rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#StephenKing"/>
+        <movie:madeIn rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#USA"/>
+        <movie:producedBy rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#ColumbiaTriton"/>
+        <movie:alternativeTitle>Shawshank</movie:alternativeTitle>
+        <movie:boxOffice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">73300000</movie:boxOffice>
+        <movie:budget rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25000000</movie:budget>
+        <movie:imdbScore rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.3</movie:imdbScore>
+        <movie:mpaaRating>R</movie:mpaaRating>
+        <movie:plot>Two imprisoned men bond over years, finding redemption through acts of common decency.</movie:plot>
+        <movie:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1994</movie:releaseYear>
+        <movie:rottenTomatoesScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">91</movie:rottenTomatoesScore>
+        <movie:runtime rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">142</movie:runtime>
+        <movie:title>The Shawshank Redemption</movie:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#The_Silence_of_the_Lambs -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#The_Silence_of_the_Lambs">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Movie"/>
+        <movie:hasActor rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#AnthonyHopkins"/>
+        <movie:hasActor rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#JodieFoster"/>
+        <movie:hasDirector rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#JonathanDemme"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Crime"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Drama"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Thriller"/>
+        <movie:hasLanguage rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#English"/>
+        <movie:hasWriter rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#TedTally"/>
+        <movie:madeIn rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#USA"/>
+        <movie:wonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Oscar"/>
+        <movie:boxOffice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">273000000</movie:boxOffice>
+        <movie:budget rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19000000</movie:budget>
+        <movie:imdbScore rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.6</movie:imdbScore>
+        <movie:mpaaRating>R</movie:mpaaRating>
+        <movie:plot>A young FBI cadet seeks the help of an incarcerated cannibal to catch another serial killer.</movie:plot>
+        <movie:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1991</movie:releaseYear>
+        <movie:rottenTomatoesScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">95</movie:rottenTomatoesScore>
+        <movie:runtime rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">118</movie:runtime>
+        <movie:title>The Silence of the Lambs</movie:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#Thriller -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#Thriller">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Genre"/>
+        <movie:genreName>Thriller</movie:genreName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#TimRobbins -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#TimRobbins">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Actor"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#SAGAward"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1958</movie:birthYear>
+        <movie:nationality>American</movie:nationality>
+        <movie:notableRole>Andy Dufresne</movie:notableRole>
+        <movie:personName>Tim Robbins</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#ToddPhillips -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#ToddPhillips">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Director"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Writer"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#GoldenGlobe"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1970</movie:birthYear>
+        <movie:nationality>American</movie:nationality>
+        <movie:personName>Todd Phillips</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#Toho -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#Toho">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Distributor"/>
+        <movie:distributorName>Toho</movie:distributorName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#TomHanks -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#TomHanks">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Actor"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#BAFTA"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#GoldenGlobe"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Oscar"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#SAGAward"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1956</movie:birthYear>
+        <movie:nationality>American</movie:nationality>
+        <movie:notableRole>Forrest Gump</movie:notableRole>
+        <movie:personName>Tom Hanks</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#TwentiethCenturyFox -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#TwentiethCenturyFox">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Studio"/>
+        <movie:headquarters>Los Angeles, California</movie:headquarters>
+        <movie:studioName>20th Century Fox</movie:studioName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#UK -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#UK">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Country"/>
+        <movie:countryName>UK</movie:countryName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#USA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#USA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Country"/>
+        <movie:countryName>USA</movie:countryName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#UniversalDistribution -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#UniversalDistribution">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Distributor"/>
+        <movie:distributorName>Universal Distribution</movie:distributorName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#UniversalPictures -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#UniversalPictures">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Studio"/>
+        <movie:headquarters>Universal City, California</movie:headquarters>
+        <movie:studioName>UniversalPictures</movie:studioName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#WachowskiSisters -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#WachowskiSisters">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Director"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Writer"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1965</movie:birthYear>
+        <movie:nationality>American</movie:nationality>
+        <movie:personName>Lana and Lilly Wachowski</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#WarnerBros -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#WarnerBros">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Studio"/>
+        <movie:headquarters>Burbank, California</movie:headquarters>
+        <movie:studioName>WarnerBros</movie:studioName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#WarnerBrosDistribution -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#WarnerBrosDistribution">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Distributor"/>
+        <movie:distributorName>Warner Bros Distribution</movie:distributorName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#Whiplash -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#Whiplash">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Movie"/>
+        <movie:title>Whiplash</movie:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#WilliamMonahan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#WilliamMonahan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Writer"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#GoldenGlobe"/>
+        <movie:personWonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Oscar"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1960</movie:birthYear>
+        <movie:nationality>American</movie:nationality>
+        <movie:personName>William Monahan</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#ZoeSaldana -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#ZoeSaldana">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Actor"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Person"/>
+        <movie:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1978</movie:birthYear>
+        <movie:nationality>American</movie:nationality>
+        <movie:notableRole>Neytiri</movie:notableRole>
+        <movie:personName>Zoe Saldana</movie:personName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#Avengers:_Endgame -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#Avengers:_Endgame">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Movie"/>
+        <movie:distributedBy rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#DisneyStudios"/>
+        <movie:hasActor rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#ChrisEvans"/>
+        <movie:hasActor rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#RobertDowneyJr"/>
+        <movie:hasDirector rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#RussoBrothers"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Action"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Adventure"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#SciFi"/>
+        <movie:hasLanguage rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#English"/>
+        <movie:hasProducer rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#KevinFeige"/>
+        <movie:hasWriter rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#ChristopherMarkus"/>
+        <movie:madeIn rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#USA"/>
+        <movie:partOfFranchise rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#MCU"/>
+        <movie:producedBy rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#MarvelStudios"/>
+        <movie:alternativeTitle>Avengers 4</movie:alternativeTitle>
+        <movie:boxOffice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2798000000</movie:boxOffice>
+        <movie:budget rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">356000000</movie:budget>
+        <movie:imdbScore rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.4</movie:imdbScore>
+        <movie:mpaaRating>PG-13</movie:mpaaRating>
+        <movie:plot>The Avengers assemble once more to reverse Thanos&apos; actions and restore balance to the universe.</movie:plot>
+        <movie:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</movie:releaseYear>
+        <movie:rottenTomatoesScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">94</movie:rottenTomatoesScore>
+        <movie:runtime rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">181</movie:runtime>
+        <movie:title>Avengers: Endgame</movie:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#The_Lord_of_the_Rings:_The_Fellowship_of_the_Ring -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#The_Lord_of_the_Rings:_The_Fellowship_of_the_Ring">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Movie"/>
+        <movie:distributedBy rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#NewLineCinema"/>
+        <movie:hasActor rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#ElijahWood"/>
+        <movie:hasActor rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#IanMcKellen"/>
+        <movie:hasDirector rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#PeterJackson"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Adventure"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Drama"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Fantasy"/>
+        <movie:hasLanguage rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#English"/>
+        <movie:hasProducer rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#PeterJackson"/>
+        <movie:hasSequel rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#The_Lord_of_the_Rings:_The_Return_of_the_King"/>
+        <movie:hasWriter rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#FranWalsh"/>
+        <movie:hasWriter rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#PeterJackson"/>
+        <movie:hasWriter rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#PhilippaBoeyns"/>
+        <movie:madeIn rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#NewZealand"/>
+        <movie:madeIn rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#USA"/>
+        <movie:partOfFranchise rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#LOTR"/>
+        <movie:producedBy rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#NewLineCinema"/>
+        <movie:wonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Oscar"/>
+        <movie:alternativeTitle>LOTR Fellowship</movie:alternativeTitle>
+        <movie:boxOffice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">871000000</movie:boxOffice>
+        <movie:budget rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">93000000</movie:budget>
+        <movie:imdbScore rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.9</movie:imdbScore>
+        <movie:mpaaRating>PG-13</movie:mpaaRating>
+        <movie:plot>A hobbit and his companions set out to destroy a powerful ring and save Middle-earth.</movie:plot>
+        <movie:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2001</movie:releaseYear>
+        <movie:rottenTomatoesScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">91</movie:rottenTomatoesScore>
+        <movie:runtime rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">178</movie:runtime>
+        <movie:title>The Lord of the Rings: The Fellowship of the Ring</movie:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/movies-instances#The_Lord_of_the_Rings:_The_Return_of_the_King -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/movies-instances#The_Lord_of_the_Rings:_The_Return_of_the_King">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/movie#Movie"/>
+        <movie:distributedBy rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#NewLineCinema"/>
+        <movie:hasActor rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#ElijahWood"/>
+        <movie:hasActor rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#IanMcKellen"/>
+        <movie:hasDirector rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#PeterJackson"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Adventure"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Drama"/>
+        <movie:hasGenre rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Fantasy"/>
+        <movie:hasLanguage rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#English"/>
+        <movie:hasPrequel rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#The_Lord_of_the_Rings:_The_Fellowship_of_the_Ring"/>
+        <movie:hasProducer rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#PeterJackson"/>
+        <movie:hasWriter rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#FranWalsh"/>
+        <movie:hasWriter rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#PeterJackson"/>
+        <movie:hasWriter rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#PhilippaBoeyns"/>
+        <movie:madeIn rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#NewZealand"/>
+        <movie:madeIn rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#USA"/>
+        <movie:partOfFranchise rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#LOTR"/>
+        <movie:producedBy rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#NewLineCinema"/>
+        <movie:wonAward rdf:resource="http://www.semanticweb.org/ontologies/movies-instances#Oscar"/>
+        <movie:alternativeTitle>LOTR Return of the King</movie:alternativeTitle>
+        <movie:boxOffice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1146000000</movie:boxOffice>
+        <movie:budget rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">94000000</movie:budget>
+        <movie:imdbScore rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.0</movie:imdbScore>
+        <movie:mpaaRating>PG-13</movie:mpaaRating>
+        <movie:plot>The final confrontation between good and evil as Frodo approaches Mount Doom.</movie:plot>
+        <movie:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2003</movie:releaseYear>
+        <movie:rottenTomatoesScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">93</movie:rottenTomatoesScore>
+        <movie:runtime rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">201</movie:runtime>
+        <movie:title>The Lord of the Rings: The Return of the King</movie:title>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

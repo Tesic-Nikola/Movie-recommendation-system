@@ -3,6 +3,8 @@ package mov.fuzzy;
 import net.sourceforge.jFuzzyLogic.FIS;
 import net.sourceforge.jFuzzyLogic.rule.Variable;
 
+import java.io.File;
+
 public class FuzzyQualityEvaluator {
     
     private FIS fis;
