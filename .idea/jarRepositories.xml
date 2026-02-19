@@ -17,6 +17,11 @@
       <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="jfuzzylogic" />
+      <option name="name" value="jFuzzyLogic" />
+      <option name="url" value="https://raw.githubusercontent.com/pcingola/jFuzzyLogic/master/repository/" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="jcolibri-repo" />
       <option name="name" value="jCOLIBRI Repository" />
       <option name="url" value="https://repo1.maven.org/maven2/" />
