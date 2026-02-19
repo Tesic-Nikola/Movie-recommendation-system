@@ -12,27 +12,27 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Main {
-    
+
     private static OntologyManager ontologyManager;
     private static MovieRecommender movieRecommender;
     private static FuzzyQualityEvaluator fuzzyEvaluator;
     private static CBREngine cbrEngine;
     private static Scanner scanner;
-    
+
     public static void main(String[] args) {
         scanner = new Scanner(System.in);
-        
+
         System.out.println("=== Movie Recommendation System ===\n");
-        
+
         // Initialize components
         initializeSystem();
-        
+
         // Main menu loop
         boolean running = true;
         while (running) {
             printMenu();
             int choice = getIntInput("Enter your choice: ");
-            
+
             switch (choice) {
                 case 1:
                     recommendMovies();
@@ -51,43 +51,43 @@ public class Main {
                     System.out.println("Invalid choice. Try again.\n");
             }
         }
-        
+
         scanner.close();
     }
-    
+
     private static void initializeSystem() {
         System.out.println("Initializing system...\n");
-        
+
         // Initialize ontology manager
         ontologyManager = new OntologyManager();
-        
+
         try {
             // Load ontology (you'll need to create this file first)
             String ontologyPath = "src/main/resources/ontology/movies-instances.owl";
             ontologyManager.loadOntology(ontologyPath);
-            
+
             // Initialize recommender
             movieRecommender = new MovieRecommender(ontologyManager);
-            
+
             // Initialize fuzzy evaluator
             fuzzyEvaluator = new FuzzyQualityEvaluator();
             String fuzzyConfigPath = Main.class.getClassLoader().getResource("fuzzy/Quality.fcl").getPath();
             fuzzyConfigPath = java.net.URLDecoder.decode(fuzzyConfigPath, "UTF-8");
             fuzzyEvaluator.loadFuzzySystem(fuzzyConfigPath);
-            
+
             // Initialize CBR engine
             cbrEngine = new CBREngine();
             List<Movie> allMovies = movieRecommender.getAllMovies();
             cbrEngine.loadCases(allMovies);
-            
+
             System.out.println("System initialized successfully!\n");
-            
+
         } catch (Exception e) {
             System.err.println("Error initializing system: " + e.getMessage());
             System.err.println("Some features may not work properly.\n");
         }
     }
-    
+
     private static void printMenu() {
         System.out.println("\n=== Main Menu ===");
         System.out.println("1. Recommend movies (Ontology + SPARQL)");
@@ -96,17 +96,17 @@ public class Main {
         System.out.println("4. Exit");
         System.out.println();
     }
-    
+
     private static void recommendMovies() {
         System.out.println("\n=== Movie Recommendation ===");
         System.out.println("1. By genre");
         System.out.println("2. By director");
         System.out.println("3. By actor");
         System.out.println("4. By year range");
-        
+
         int choice = getIntInput("Choose search type: ");
         List<Movie> results = null;
-        
+
         switch (choice) {
             case 1:
                 String genre = getStringInput("Enter genre: ");
@@ -129,37 +129,37 @@ public class Main {
                 System.out.println("Invalid choice.");
                 return;
         }
-        
+
         displayMovies(results);
     }
-    
+
     private static void evaluateMovieQuality() {
         System.out.println("\n=== Movie Quality Evaluation (Fuzzy Logic) ===");
         System.out.println("Rate the following criteria (0-10):\n");
-        
+
         double directing = getDoubleInput("Directing quality: ");
         double acting = getDoubleInput("Acting quality: ");
         double screenplay = getDoubleInput("Screenplay quality: ");
         double visualEffects = getDoubleInput("Visual effects quality: ");
         double culturalSignificance = getDoubleInput("Cultural significance: ");
-        
+
         double qualityScore = fuzzyEvaluator.evaluateQuality(
-            directing, acting, screenplay, visualEffects, culturalSignificance
+                directing, acting, screenplay, visualEffects, culturalSignificance
         );
-        
+
         String qualityLabel = fuzzyEvaluator.getQualityLabel(qualityScore);
-        
+
         System.out.println("\n--- Results ---");
         System.out.println("Quality Score: " + String.format("%.2f", qualityScore) + "/10");
         System.out.println("Quality Rating: " + qualityLabel);
     }
-    
+
     private static void findSimilarMovies() {
         System.out.println("\n=== Find Similar Movies (CBR) ===");
-        
+
         String movieTitle = getStringInput("Enter movie title: ");
         int k = getIntInput("How many similar movies to show: ");
-        
+
         // Find the target movie in case base
         Movie targetMovie = null;
         for (CaseRepresentation caseRep : cbrEngine.getCaseBase()) {
@@ -168,46 +168,74 @@ public class Main {
                 break;
             }
         }
-        
+
         if (targetMovie == null) {
             System.out.println("Movie not found in database.");
             return;
         }
-        
+
         List<CaseRepresentation> similarCases = cbrEngine.findSimilarCases(targetMovie, k);
-        
+
         System.out.println("\n--- Similar Movies ---");
         for (int i = 0; i < similarCases.size(); i++) {
             CaseRepresentation caseRep = similarCases.get(i);
             Movie movie = caseRep.getMovie();
             double similarity = caseRep.getSimilarity();
-            
-            System.out.println((i + 1) + ". " + movie.getTitle() + 
-                             " (" + movie.getYear() + ") - Similarity: " + 
-                             String.format("%.2f%%", similarity * 100));
+
+            System.out.println("\n" + (i + 1) + ". " + movie.getTitle() +
+                    (movie.getYear() > 0 ? " (" + movie.getYear() + ")" : "") +
+                    " - Similarity: " + String.format("%.2f%%", similarity * 100));
+            if (!movie.getDirectors().isEmpty()) {
+                System.out.print("   Director(s): ");
+                movie.getDirectors().forEach(d -> System.out.print(d.getName() + " "));
+                System.out.println();
+            }
+            if (!movie.getGenres().isEmpty()) {
+                System.out.println("   Genre(s):    " + String.join(", ", movie.getGenres()));
+            }
+            if (movie.getRating() > 0) {
+                System.out.println("   IMDb Score:  " + movie.getRating());
+            }
+            if (movie.getRuntime() > 0) {
+                System.out.println("   Runtime:     " + movie.getRuntime() + " min");
+            }
         }
     }
-    
+
     private static void displayMovies(List<Movie> movies) {
         if (movies == null || movies.isEmpty()) {
             System.out.println("\nNo movies found.");
             return;
         }
-        
+
         System.out.println("\n--- Results (" + movies.size() + " movies) ---");
         for (int i = 0; i < movies.size(); i++) {
             Movie movie = movies.get(i);
-            System.out.println((i + 1) + ". " + movie.getTitle() + 
-                             (movie.getYear() > 0 ? " (" + movie.getYear() + ")" : ""));
+            System.out.println("\n" + (i + 1) + ". " + movie.getTitle() +
+                    (movie.getYear() > 0 ? " (" + movie.getYear() + ")" : ""));
+            if (!movie.getDirectors().isEmpty()) {
+                System.out.print("   Director(s): ");
+                movie.getDirectors().forEach(d -> System.out.print(d.getName() + " "));
+                System.out.println();
+            }
+            if (!movie.getGenres().isEmpty()) {
+                System.out.println("   Genre(s):    " + String.join(", ", movie.getGenres()));
+            }
+            if (movie.getRating() > 0) {
+                System.out.println("   IMDb Score:  " + movie.getRating());
+            }
+            if (movie.getRuntime() > 0) {
+                System.out.println("   Runtime:     " + movie.getRuntime() + " min");
+            }
         }
     }
-    
+
     // Helper methods for input
     private static String getStringInput(String prompt) {
         System.out.print(prompt);
         return scanner.nextLine().trim();
     }
-    
+
     private static int getIntInput(String prompt) {
         while (true) {
             try {
@@ -219,7 +247,7 @@ public class Main {
             }
         }
     }
-    
+
     private static double getDoubleInput(String prompt) {
         while (true) {
             try {

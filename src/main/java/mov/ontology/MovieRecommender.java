@@ -22,77 +22,93 @@ public class MovieRecommender {
         String queryString =
                 "PREFIX movie: <http://www.semanticweb.org/ontologies/movie#> \n" +
                         "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> \n" +
-                        "SELECT ?movie ?title ?year \n" +
+                        "SELECT ?movie ?title ?year ?score ?directorName ?genreName ?runtime \n" +
                         "WHERE { \n" +
                         "  ?movie rdf:type movie:Movie . \n" +
-                        "  ?movie movie:hasGenre ?genre . \n" +
-                        "  ?genre movie:genreName \"" + genre + "\" . \n" +
+                        "  ?movie movie:hasGenre ?g . \n" +
+                        "  ?g movie:genreName \"" + genre + "\" . \n" +
                         "  ?movie movie:title ?title . \n" +
                         "  OPTIONAL { ?movie movie:releaseYear ?year } \n" +
+                        "  OPTIONAL { ?movie movie:imdbScore ?score } \n" +
+                        "  OPTIONAL { ?movie movie:runtime ?runtime } \n" +
+                        "  OPTIONAL { ?movie movie:hasDirector ?dir . ?dir movie:personName ?directorName } \n" +
+                        "  OPTIONAL { ?movie movie:hasGenre ?genre2 . ?genre2 movie:genreName ?genreName } \n" +
                         "}";
-        return executeMovieQuery(queryString);
+        return executeRichMovieQuery(queryString);
     }
 
     public List<Movie> recommendByDirector(String directorName) {
         String queryString =
                 "PREFIX movie: <http://www.semanticweb.org/ontologies/movie#> \n" +
                         "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> \n" +
-                        "SELECT ?movie ?title ?year \n" +
+                        "SELECT ?movie ?title ?year ?score ?directorName ?genreName ?runtime \n" +
                         "WHERE { \n" +
                         "  ?movie rdf:type movie:Movie . \n" +
-                        "  ?movie movie:hasDirector ?director . \n" +
-                        "  ?director movie:personName \"" + directorName + "\" . \n" +
+                        "  ?movie movie:hasDirector ?d . \n" +
+                        "  ?d movie:personName \"" + directorName + "\" . \n" +
                         "  ?movie movie:title ?title . \n" +
                         "  OPTIONAL { ?movie movie:releaseYear ?year } \n" +
+                        "  OPTIONAL { ?movie movie:imdbScore ?score } \n" +
+                        "  OPTIONAL { ?movie movie:runtime ?runtime } \n" +
+                        "  OPTIONAL { ?movie movie:hasDirector ?dir . ?dir movie:personName ?directorName } \n" +
+                        "  OPTIONAL { ?movie movie:hasGenre ?genre . ?genre movie:genreName ?genreName } \n" +
                         "}";
-        return executeMovieQuery(queryString);
+        return executeRichMovieQuery(queryString);
     }
 
     public List<Movie> recommendByActor(String actorName) {
         String queryString =
                 "PREFIX movie: <http://www.semanticweb.org/ontologies/movie#> \n" +
                         "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> \n" +
-                        "SELECT ?movie ?title ?year \n" +
+                        "SELECT ?movie ?title ?year ?score ?directorName ?genreName ?runtime \n" +
                         "WHERE { \n" +
                         "  ?movie rdf:type movie:Movie . \n" +
-                        "  ?movie movie:hasActor ?actor . \n" +
-                        "  ?actor movie:personName \"" + actorName + "\" . \n" +
+                        "  ?movie movie:hasActor ?a . \n" +
+                        "  ?a movie:personName \"" + actorName + "\" . \n" +
                         "  ?movie movie:title ?title . \n" +
                         "  OPTIONAL { ?movie movie:releaseYear ?year } \n" +
+                        "  OPTIONAL { ?movie movie:imdbScore ?score } \n" +
+                        "  OPTIONAL { ?movie movie:runtime ?runtime } \n" +
+                        "  OPTIONAL { ?movie movie:hasDirector ?dir . ?dir movie:personName ?directorName } \n" +
+                        "  OPTIONAL { ?movie movie:hasGenre ?genre . ?genre movie:genreName ?genreName } \n" +
                         "}";
-        return executeMovieQuery(queryString);
+        return executeRichMovieQuery(queryString);
     }
 
     public List<Movie> recommendByYearRange(int startYear, int endYear) {
         String queryString =
                 "PREFIX movie: <http://www.semanticweb.org/ontologies/movie#> \n" +
                         "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> \n" +
-                        "SELECT ?movie ?title ?year \n" +
+                        "SELECT ?movie ?title ?year ?score ?directorName ?genreName ?runtime \n" +
                         "WHERE { \n" +
                         "  ?movie rdf:type movie:Movie . \n" +
                         "  ?movie movie:title ?title . \n" +
                         "  ?movie movie:releaseYear ?year . \n" +
                         "  FILTER (?year >= " + startYear + " && ?year <= " + endYear + ") \n" +
+                        "  OPTIONAL { ?movie movie:imdbScore ?score } \n" +
+                        "  OPTIONAL { ?movie movie:runtime ?runtime } \n" +
+                        "  OPTIONAL { ?movie movie:hasDirector ?dir . ?dir movie:personName ?directorName } \n" +
+                        "  OPTIONAL { ?movie movie:hasGenre ?genre . ?genre movie:genreName ?genreName } \n" +
                         "}";
-        return executeMovieQuery(queryString);
+        return executeRichMovieQuery(queryString);
     }
 
     public List<Movie> recommendByMultipleCriteria(String genre, String director, Integer minYear) {
         StringBuilder query = new StringBuilder();
         query.append("PREFIX movie: <http://www.semanticweb.org/ontologies/movie#> \n");
         query.append("PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> \n");
-        query.append("SELECT ?movie ?title ?year \n");
+        query.append("SELECT ?movie ?title ?year ?score ?directorName ?genreName ?runtime \n");
         query.append("WHERE { \n");
         query.append("  ?movie rdf:type movie:Movie . \n");
         query.append("  ?movie movie:title ?title . \n");
 
         if (genre != null && !genre.isEmpty()) {
-            query.append("  ?movie movie:hasGenre ?genre . \n");
-            query.append("  ?genre movie:genreName \"" + genre + "\" . \n");
+            query.append("  ?movie movie:hasGenre ?g . \n");
+            query.append("  ?g movie:genreName \"" + genre + "\" . \n");
         }
         if (director != null && !director.isEmpty()) {
-            query.append("  ?movie movie:hasDirector ?dir . \n");
-            query.append("  ?dir movie:personName \"" + director + "\" . \n");
+            query.append("  ?movie movie:hasDirector ?d . \n");
+            query.append("  ?d movie:personName \"" + director + "\" . \n");
         }
         if (minYear != null) {
             query.append("  ?movie movie:releaseYear ?year . \n");
@@ -100,8 +116,12 @@ public class MovieRecommender {
         } else {
             query.append("  OPTIONAL { ?movie movie:releaseYear ?year } \n");
         }
+        query.append("  OPTIONAL { ?movie movie:imdbScore ?score } \n");
+        query.append("  OPTIONAL { ?movie movie:runtime ?runtime } \n");
+        query.append("  OPTIONAL { ?movie movie:hasDirector ?dir . ?dir movie:personName ?directorName } \n");
+        query.append("  OPTIONAL { ?movie movie:hasGenre ?genre2 . ?genre2 movie:genreName ?genreName } \n");
         query.append("}");
-        return executeMovieQuery(query.toString());
+        return executeRichMovieQuery(query.toString());
     }
 
     /**
@@ -111,18 +131,25 @@ public class MovieRecommender {
         String queryString =
                 "PREFIX movie: <http://www.semanticweb.org/ontologies/movie#> \n" +
                         "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> \n" +
-                        "SELECT ?movie ?title ?year ?score ?directorName ?genreName \n" +
+                        "SELECT ?movie ?title ?year ?score ?directorName ?genreName ?runtime \n" +
                         "WHERE { \n" +
                         "  ?movie rdf:type movie:Movie . \n" +
                         "  ?movie movie:title ?title . \n" +
                         "  OPTIONAL { ?movie movie:releaseYear ?year } \n" +
                         "  OPTIONAL { ?movie movie:imdbScore ?score } \n" +
+                        "  OPTIONAL { ?movie movie:runtime ?runtime } \n" +
                         "  OPTIONAL { ?movie movie:hasDirector ?director . ?director movie:personName ?directorName } \n" +
                         "  OPTIONAL { ?movie movie:hasGenre ?genre . ?genre movie:genreName ?genreName } \n" +
                         "}";
+        return executeRichMovieQuery(queryString);
+    }
 
+    /**
+     * Executes a SPARQL query and returns fully populated Movie objects
+     * (title, year, imdbScore, runtime, directors, genres)
+     */
+    private List<Movie> executeRichMovieQuery(String queryString) {
         Map<String, Movie> movieMap = new LinkedHashMap<>();
-
         try {
             ResultSet results = ontologyManager.executeSPARQLQuery(queryString);
             while (results.hasNext()) {
@@ -137,6 +164,8 @@ public class MovieRecommender {
                     movie.setYear(solution.getLiteral("year").getInt());
                 if (solution.contains("score"))
                     movie.setRating(solution.getLiteral("score").getDouble());
+                if (solution.contains("runtime"))
+                    movie.setRuntime(solution.getLiteral("runtime").getInt());
                 if (solution.contains("directorName")) {
                     String dName = solution.getLiteral("directorName").getString();
                     boolean exists = movie.getDirectors().stream().anyMatch(d -> d.getName().equals(dName));
@@ -153,27 +182,6 @@ public class MovieRecommender {
             System.err.println("Error executing SPARQL query: " + e.getMessage());
             e.printStackTrace();
         }
-
         return new ArrayList<>(movieMap.values());
-    }
-
-    private List<Movie> executeMovieQuery(String queryString) {
-        List<Movie> movies = new ArrayList<>();
-        try {
-            ResultSet results = ontologyManager.executeSPARQLQuery(queryString);
-            while (results.hasNext()) {
-                QuerySolution solution = results.nextSolution();
-                Movie movie = new Movie();
-                movie.setUri(solution.getResource("movie").getURI());
-                movie.setTitle(solution.getLiteral("title").getString());
-                if (solution.contains("year"))
-                    movie.setYear(solution.getLiteral("year").getInt());
-                movies.add(movie);
-            }
-        } catch (Exception e) {
-            System.err.println("Error executing SPARQL query: " + e.getMessage());
-            e.printStackTrace();
-        }
-        return movies;
     }
 }

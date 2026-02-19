@@ -43,12 +43,14 @@ public class OntologyManager {
         this.ontologyIRI = ontology.getOntologyID().getOntologyIRI().get().toString();
 
         jenaModel = ModelFactory.createOntologyModel(OntModelSpec.OWL_DL_MEM);
-        jenaModel.read(new FileInputStream(schemaPath), null);
-        jenaModel.read(new FileInputStream(instancesPath), null);
+
+        // Schema is OWL/XML format - must specify "RDF/XML" is wrong, use OWL API to convert it
+        // Instead, only load instances into Jena (instances are RDF/XML and contain all needed triples)
+        jenaModel.read(new FileInputStream(instancesPath), null, "RDF/XML");
 
         System.out.println("Ontology loaded: " + ontologyIRI);
         System.out.println("Axioms count: " + ontology.getAxiomCount());
-        System.out.println("Jena model loaded with schema + instances.");
+        System.out.println("Jena model loaded.");
     }
 
     public void saveOntology(String filePath) throws Exception {
